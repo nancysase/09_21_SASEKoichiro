@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24AF38D947F9C946A5E8778F /* Pods_TinderLikeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6866E44D5DD07B0CC4EE2F9 /* Pods_TinderLikeApp.framework */; };
+		B941F1C124A1C861006DB086 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B941F1C024A1C861006DB086 /* AppDelegate.swift */; };
+		B941F1C324A1C861006DB086 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B941F1C224A1C861006DB086 /* SceneDelegate.swift */; };
+		B941F1C524A1C861006DB086 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B941F1C424A1C861006DB086 /* ViewController.swift */; };
+		B941F1C824A1C861006DB086 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B941F1C624A1C861006DB086 /* Main.storyboard */; };
+		B941F1CA24A1C863006DB086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B941F1C924A1C863006DB086 /* Assets.xcassets */; };
+		B941F1CD24A1C863006DB086 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B941F1CB24A1C863006DB086 /* LaunchScreen.storyboard */; };
+		B941F1D524A1D49C006DB086 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B941F1D424A1D49C006DB086 /* GoogleService-Info.plist */; };
+		B941F1DA24A1F35F006DB086 /* FemailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B941F1D824A1F35F006DB086 /* FemailViewController.swift */; };
+		B941F1DB24A1F35F006DB086 /* FemailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B941F1D924A1F35F006DB086 /* FemailViewController.xib */; };
+		B941F1DD24A216DB006DB086 /* ArrayClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B941F1DC24A216DB006DB086 /* ArrayClass.swift */; };
+		B941F1E024A22872006DB086 /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B941F1DE24A22872006DB086 /* PopupViewController.swift */; };
+		B941F1E124A22872006DB086 /* PopupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B941F1DF24A22872006DB086 /* PopupViewController.xib */; };
+		B941F1E424A2E9F5006DB086 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B941F1E224A2E9F5006DB086 /* LoginViewController.swift */; };
+		B941F1E524A2E9F5006DB086 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B941F1E324A2E9F5006DB086 /* LoginViewController.xib */; };
+		B94CD5F124A3800F00CD2EA0 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94CD5EF24A3800F00CD2EA0 /* ResultViewController.swift */; };
+		B94CD5F224A3800F00CD2EA0 /* ResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B94CD5F024A3800F00CD2EA0 /* ResultViewController.xib */; };
+		B94CD5F524A3847A00CD2EA0 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94CD5F324A3847A00CD2EA0 /* CustomCell.swift */; };
+		B94CD5F624A3847A00CD2EA0 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B94CD5F424A3847A00CD2EA0 /* CustomCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		60F9FB1BB22574DF53A20737 /* Pods-TinderLikeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderLikeApp.release.xcconfig"; path = "Target Support Files/Pods-TinderLikeApp/Pods-TinderLikeApp.release.xcconfig"; sourceTree = "<group>"; };
+		B941F1BD24A1C861006DB086 /* TinderLikeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderLikeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B941F1C024A1C861006DB086 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B941F1C224A1C861006DB086 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B941F1C424A1C861006DB086 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B941F1C724A1C861006DB086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B941F1C924A1C863006DB086 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B941F1CC24A1C863006DB086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B941F1CE24A1C863006DB086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B941F1D424A1D49C006DB086 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B941F1D824A1F35F006DB086 /* FemailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FemailViewController.swift; sourceTree = "<group>"; };
+		B941F1D924A1F35F006DB086 /* FemailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FemailViewController.xib; sourceTree = "<group>"; };
+		B941F1DC24A216DB006DB086 /* ArrayClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayClass.swift; sourceTree = "<group>"; };
+		B941F1DE24A22872006DB086 /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		B941F1DF24A22872006DB086 /* PopupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopupViewController.xib; sourceTree = "<group>"; };
+		B941F1E224A2E9F5006DB086 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B941F1E324A2E9F5006DB086 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		B94CD5EF24A3800F00CD2EA0 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		B94CD5F024A3800F00CD2EA0 /* ResultViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultViewController.xib; sourceTree = "<group>"; };
+		B94CD5F324A3847A00CD2EA0 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		B94CD5F424A3847A00CD2EA0 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		D5CFA9C300F7DF5A4F2489B0 /* Pods-TinderLikeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderLikeApp.debug.xcconfig"; path = "Target Support Files/Pods-TinderLikeApp/Pods-TinderLikeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F6866E44D5DD07B0CC4EE2F9 /* Pods_TinderLikeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinderLikeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B941F1BA24A1C861006DB086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24AF38D947F9C946A5E8778F /* Pods_TinderLikeApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75B4903EAEEB12C7E08D6CD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5CFA9C300F7DF5A4F2489B0 /* Pods-TinderLikeApp.debug.xcconfig */,
+				60F9FB1BB22574DF53A20737 /* Pods-TinderLikeApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B941F1B424A1C861006DB086 = {
+			isa = PBXGroup;
+			children = (
+				B941F1BF24A1C861006DB086 /* TinderLikeApp */,
+				B941F1BE24A1C861006DB086 /* Products */,
+				75B4903EAEEB12C7E08D6CD5 /* Pods */,
+				D9DC357DA5C826146EAD524C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B941F1BE24A1C861006DB086 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B941F1BD24A1C861006DB086 /* TinderLikeApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B941F1BF24A1C861006DB086 /* TinderLikeApp */ = {
+			isa = PBXGroup;
+			children = (
+				B941F1C024A1C861006DB086 /* AppDelegate.swift */,
+				B941F1C224A1C861006DB086 /* SceneDelegate.swift */,
+				B941F1E224A2E9F5006DB086 /* LoginViewController.swift */,
+				B941F1E324A2E9F5006DB086 /* LoginViewController.xib */,
+				B941F1C424A1C861006DB086 /* ViewController.swift */,
+				B941F1C624A1C861006DB086 /* Main.storyboard */,
+				B941F1D824A1F35F006DB086 /* FemailViewController.swift */,
+				B941F1D924A1F35F006DB086 /* FemailViewController.xib */,
+				B941F1DE24A22872006DB086 /* PopupViewController.swift */,
+				B941F1DF24A22872006DB086 /* PopupViewController.xib */,
+				B94CD5EF24A3800F00CD2EA0 /* ResultViewController.swift */,
+				B94CD5F024A3800F00CD2EA0 /* ResultViewController.xib */,
+				B94CD5F324A3847A00CD2EA0 /* CustomCell.swift */,
+				B94CD5F424A3847A00CD2EA0 /* CustomCell.xib */,
+				B941F1C924A1C863006DB086 /* Assets.xcassets */,
+				B941F1CB24A1C863006DB086 /* LaunchScreen.storyboard */,
+				B941F1CE24A1C863006DB086 /* Info.plist */,
+				B941F1D424A1D49C006DB086 /* GoogleService-Info.plist */,
+				B941F1DC24A216DB006DB086 /* ArrayClass.swift */,
+			);
+			path = TinderLikeApp;
+			sourceTree = "<group>";
+		};
+		D9DC357DA5C826146EAD524C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6866E44D5DD07B0CC4EE2F9 /* Pods_TinderLikeApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B941F1BC24A1C861006DB086 /* TinderLikeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B941F1D124A1C863006DB086 /* Build configuration list for PBXNativeTarget "TinderLikeApp" */;
+			buildPhases = (
+				CE517BCBD662DBACA83FEC7E /* [CP] Check Pods Manifest.lock */,
+				B941F1B924A1C861006DB086 /* Sources */,
+				B941F1BA24A1C861006DB086 /* Frameworks */,
+				B941F1BB24A1C861006DB086 /* Resources */,
+				99FEC5DCA5C44DAEED38048B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinderLikeApp;
+			productName = TinderLikeApp;
+			productReference = B941F1BD24A1C861006DB086 /* TinderLikeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B941F1B524A1C861006DB086 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "SASE Koichiro";
+				TargetAttributes = {
+					B941F1BC24A1C861006DB086 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = B941F1B824A1C861006DB086 /* Build configuration list for PBXProject "TinderLikeApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B941F1B424A1C861006DB086;
+			productRefGroup = B941F1BE24A1C861006DB086 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B941F1BC24A1C861006DB086 /* TinderLikeApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B941F1BB24A1C861006DB086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B941F1CD24A1C863006DB086 /* LaunchScreen.storyboard in Resources */,
+				B941F1D524A1D49C006DB086 /* GoogleService-Info.plist in Resources */,
+				B941F1DB24A1F35F006DB086 /* FemailViewController.xib in Resources */,
+				B941F1CA24A1C863006DB086 /* Assets.xcassets in Resources */,
+				B941F1C824A1C861006DB086 /* Main.storyboard in Resources */,
+				B941F1E524A2E9F5006DB086 /* LoginViewController.xib in Resources */,
+				B94CD5F624A3847A00CD2EA0 /* CustomCell.xib in Resources */,
+				B941F1E124A22872006DB086 /* PopupViewController.xib in Resources */,
+				B94CD5F224A3800F00CD2EA0 /* ResultViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		99FEC5DCA5C44DAEED38048B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TinderLikeApp/Pods-TinderLikeApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TinderLikeApp/Pods-TinderLikeApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TinderLikeApp/Pods-TinderLikeApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE517BCBD662DBACA83FEC7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TinderLikeApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B941F1B924A1C861006DB086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B941F1E424A2E9F5006DB086 /* LoginViewController.swift in Sources */,
+				B941F1C524A1C861006DB086 /* ViewController.swift in Sources */,
+				B941F1C124A1C861006DB086 /* AppDelegate.swift in Sources */,
+				B94CD5F124A3800F00CD2EA0 /* ResultViewController.swift in Sources */,
+				B94CD5F524A3847A00CD2EA0 /* CustomCell.swift in Sources */,
+				B941F1DD24A216DB006DB086 /* ArrayClass.swift in Sources */,
+				B941F1DA24A1F35F006DB086 /* FemailViewController.swift in Sources */,
+				B941F1C324A1C861006DB086 /* SceneDelegate.swift in Sources */,
+				B941F1E024A22872006DB086 /* PopupViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B941F1C624A1C861006DB086 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B941F1C724A1C861006DB086 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B941F1CB24A1C863006DB086 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B941F1CC24A1C863006DB086 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B941F1CF24A1C863006DB086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B941F1D024A1C863006DB086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B941F1D224A1C863006DB086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5CFA9C300F7DF5A4F2489B0 /* Pods-TinderLikeApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3WRVYCK66;
+				INFOPLIST_FILE = TinderLikeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cras-c.TinderLikeApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B941F1D324A1C863006DB086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60F9FB1BB22574DF53A20737 /* Pods-TinderLikeApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3WRVYCK66;
+				INFOPLIST_FILE = TinderLikeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cras-c.TinderLikeApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B941F1B824A1C861006DB086 /* Build configuration list for PBXProject "TinderLikeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B941F1CF24A1C863006DB086 /* Debug */,
+				B941F1D024A1C863006DB086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B941F1D124A1C863006DB086 /* Build configuration list for PBXNativeTarget "TinderLikeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B941F1D224A1C863006DB086 /* Debug */,
+				B941F1D324A1C863006DB086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B941F1B524A1C861006DB086 /* Project object */;
+}
