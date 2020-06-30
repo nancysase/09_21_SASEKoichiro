@@ -90,7 +90,9 @@
             <constraints>
                 <constraint firstItem="uqM-4x-5Lt" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="14y-UR-AmG"/>
                 <constraint firstItem="uqM-4x-5Lt" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="4Lr-EW-pOM"/>
+                <constraint firstItem="uqM-4x-5Lt" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="i5w-jx-6Nb"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="uqM-4x-5Lt" secondAttribute="trailing" constant="50" id="qHi-69-eQ5"/>
+                <constraint firstItem="uqM-4x-5Lt" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="qXH-cP-rbJ"/>
                 <constraint firstItem="uqM-4x-5Lt" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="50" id="zfs-gW-Oo7"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>

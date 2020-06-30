@@ -20,6 +20,7 @@ class FemailViewController: UIViewController,KolodaViewDelegate,KolodaViewDataSo
     
     var femaleLikeArray:[ArrayInfo] = []
     var femaleDislikeArray:[ArrayInfo] = []
+    var femaleQuitArray:[ArrayInfo] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -71,7 +72,9 @@ class FemailViewController: UIViewController,KolodaViewDelegate,KolodaViewDataSo
         let resultVC = ResultViewController()
         resultVC.modalPresentationStyle = .fullScreen
         resultVC.femaleLikeArrayInTV = femaleLikeArray
-        self.present(resultVC, animated: true, completion: nil)
+        resultVC.femaleDislikeArrayInTV = femaleDislikeArray
+        resultVC.femaleQuitArrayInTV = femaleQuitArray
+        navigationController?.pushViewController(resultVC, animated: true)
     }
     
     func koloda(_ koloda: KolodaView, didSelectCardAt index: Int) {
@@ -83,7 +86,7 @@ class FemailViewController: UIViewController,KolodaViewDelegate,KolodaViewDataSo
     }
     
     func koloda(_ koloda: KolodaView, allowedDirectionsForIndex index: Int) -> [SwipeResultDirection] {
-        return[.up, .down]
+        return[.up, .down, .left]
     }
     
     func koloda(_ koloda: KolodaView, didSwipeCardAt index: Int, in direction: SwipeResultDirection) {
@@ -92,6 +95,8 @@ class FemailViewController: UIViewController,KolodaViewDelegate,KolodaViewDataSo
             return femaleLikeArray.append(femaleImageArray[index])
         case .down:
             return femaleDislikeArray.append(femaleImageArray[index])
+        case .left:
+            return femaleQuitArray.append(femaleImageArray[index])
         default:
             return
         }

@@ -13,6 +13,18 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var nextButton: UIButton!
     
+    @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var ageTextField: UITextField!
+    @IBOutlet weak var descriptionTextView: UITextView!
+    @IBOutlet weak var recordButton: UIButton!
+    @IBOutlet weak var imageView: UIImageView!
+    
+
+    
+    var maleImageList = [String]()
+    var imageString = String()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         if self.isLogin() == true{
@@ -21,10 +33,10 @@ class ViewController: UIViewController {
         } else {
             self.presentLoginController()
         }
-        nextButton.titleLabel?.numberOfLines = 2
-        nextButton.titleLabel?.textAlignment = .center
-        
         setupNavigationBar()
+        nextButton.layer.cornerRadius = 5
+        descriptionTextView.layer.cornerRadius = 5
+        recordButton.layer.cornerRadius = 5
     }
     
     func isLogin() ->Bool{
@@ -64,7 +76,25 @@ class ViewController: UIViewController {
             print("サインアウトエラー:\(signOutError)")
         }
     }
+    
+    @IBAction func imageSelectButton(_ sender: Any) {
+        let selectVC = ImageSelectViewController()
+        selectVC.closure = {(image: UIImage) -> Void in
+            self.imageView.image = image
+        }
+        selectVC.stringClosure = {(imageString: String) -> Void in
+            self.imageString = imageString
+        }
+        self.present(selectVC, animated: true, completion: nil)
+    }
 
+    @IBAction func recordTapButton(_ sender: Any) {
+        let nextVC = FemailViewController()
+        guard let name = nameTextField.text, let age = ageTextField.text, let description = descriptionTextView.text else { return }
+        femaleImageArray.append(ArrayInfo(name: name, age: Int(age)!, url: imageString
+        , description: description))
+        navigationController?.pushViewController(nextVC, animated: true)
+    }
     
 }
 

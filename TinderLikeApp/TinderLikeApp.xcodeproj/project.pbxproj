@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		24AF38D947F9C946A5E8778F /* Pods_TinderLikeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6866E44D5DD07B0CC4EE2F9 /* Pods_TinderLikeApp.framework */; };
+		B90B723624A9C034003AD273 /* ImageSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90B723424A9C034003AD273 /* ImageSelectViewController.swift */; };
+		B90B723724A9C034003AD273 /* ImageSelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B90B723524A9C034003AD273 /* ImageSelectViewController.xib */; };
+		B90B723E24A9C22F003AD273 /* ImageSelectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90B723C24A9C22F003AD273 /* ImageSelectCell.swift */; };
+		B90B723F24A9C22F003AD273 /* ImageSelectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B90B723D24A9C22F003AD273 /* ImageSelectCell.xib */; };
 		B941F1C124A1C861006DB086 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B941F1C024A1C861006DB086 /* AppDelegate.swift */; };
 		B941F1C324A1C861006DB086 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B941F1C224A1C861006DB086 /* SceneDelegate.swift */; };
 		B941F1C524A1C861006DB086 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B941F1C424A1C861006DB086 /* ViewController.swift */; };
@@ -30,6 +34,10 @@
 
 /* Begin PBXFileReference section */
 		60F9FB1BB22574DF53A20737 /* Pods-TinderLikeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderLikeApp.release.xcconfig"; path = "Target Support Files/Pods-TinderLikeApp/Pods-TinderLikeApp.release.xcconfig"; sourceTree = "<group>"; };
+		B90B723424A9C034003AD273 /* ImageSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectViewController.swift; sourceTree = "<group>"; };
+		B90B723524A9C034003AD273 /* ImageSelectViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageSelectViewController.xib; sourceTree = "<group>"; };
+		B90B723C24A9C22F003AD273 /* ImageSelectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectCell.swift; sourceTree = "<group>"; };
+		B90B723D24A9C22F003AD273 /* ImageSelectCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageSelectCell.xib; sourceTree = "<group>"; };
 		B941F1BD24A1C861006DB086 /* TinderLikeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderLikeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B941F1C024A1C861006DB086 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B941F1C224A1C861006DB086 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +110,10 @@
 				B941F1E324A2E9F5006DB086 /* LoginViewController.xib */,
 				B941F1C424A1C861006DB086 /* ViewController.swift */,
 				B941F1C624A1C861006DB086 /* Main.storyboard */,
+				B90B723424A9C034003AD273 /* ImageSelectViewController.swift */,
+				B90B723524A9C034003AD273 /* ImageSelectViewController.xib */,
+				B90B723C24A9C22F003AD273 /* ImageSelectCell.swift */,
+				B90B723D24A9C22F003AD273 /* ImageSelectCell.xib */,
 				B941F1D824A1F35F006DB086 /* FemailViewController.swift */,
 				B941F1D924A1F35F006DB086 /* FemailViewController.xib */,
 				B941F1DE24A22872006DB086 /* PopupViewController.swift */,
@@ -190,11 +202,13 @@
 				B941F1CD24A1C863006DB086 /* LaunchScreen.storyboard in Resources */,
 				B941F1D524A1D49C006DB086 /* GoogleService-Info.plist in Resources */,
 				B941F1DB24A1F35F006DB086 /* FemailViewController.xib in Resources */,
+				B90B723F24A9C22F003AD273 /* ImageSelectCell.xib in Resources */,
 				B941F1CA24A1C863006DB086 /* Assets.xcassets in Resources */,
 				B941F1C824A1C861006DB086 /* Main.storyboard in Resources */,
 				B941F1E524A2E9F5006DB086 /* LoginViewController.xib in Resources */,
 				B94CD5F624A3847A00CD2EA0 /* CustomCell.xib in Resources */,
 				B941F1E124A22872006DB086 /* PopupViewController.xib in Resources */,
+				B90B723724A9C034003AD273 /* ImageSelectViewController.xib in Resources */,
 				B94CD5F224A3800F00CD2EA0 /* ResultViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,10 +266,12 @@
 				B941F1C524A1C861006DB086 /* ViewController.swift in Sources */,
 				B941F1C124A1C861006DB086 /* AppDelegate.swift in Sources */,
 				B94CD5F124A3800F00CD2EA0 /* ResultViewController.swift in Sources */,
+				B90B723E24A9C22F003AD273 /* ImageSelectCell.swift in Sources */,
 				B94CD5F524A3847A00CD2EA0 /* CustomCell.swift in Sources */,
 				B941F1DD24A216DB006DB086 /* ArrayClass.swift in Sources */,
 				B941F1DA24A1F35F006DB086 /* FemailViewController.swift in Sources */,
 				B941F1C324A1C861006DB086 /* SceneDelegate.swift in Sources */,
+				B90B723624A9C034003AD273 /* ImageSelectViewController.swift in Sources */,
 				B941F1E024A22872006DB086 /* PopupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
