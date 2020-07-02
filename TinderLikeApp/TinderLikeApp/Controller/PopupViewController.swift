@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import LTMorphingLabel
 
 class PopupViewController: UIViewController{
     @IBOutlet weak var modalView: UIView!

@@ -79,12 +79,23 @@ class ResultViewController: UIViewController, UITableViewDelegate, UITableViewDa
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let popUpVC = PopupViewController()
+        self.present(popUpVC, animated: true, completion: nil)
+        popUpVC.nameLabel.text = twoDimArray[indexPath.section][indexPath.row].name
+        popUpVC.ageLabel.text = String(twoDimArray[indexPath.section][indexPath.row].age)
+        popUpVC.descriptionLabel.text = twoDimArray[indexPath.section][indexPath.row].description
+    }
 
-    
-
-    
-    
-    
+    //スワイプして削除のコードが動作しない！！！できれば、削除ではなく、iOSとWEBの対象者のみ、スワイプしたら、それぞれwebか退学か、iOSか退学かの選択肢が表示されて、決定すると、その行は消えて選択したセクションに再表示されるようにしたい・・・
+//    func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+//        true
+//    }
+//
+//    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+//        self.twoDimArray.remove(at: indexPath.row)
+//        tableView.deleteRows(at: [indexPath], with: .automatic)
+//    }
 
 
 

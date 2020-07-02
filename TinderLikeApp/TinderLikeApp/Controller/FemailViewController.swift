@@ -30,6 +30,14 @@ class FemailViewController: UIViewController,KolodaViewDelegate,KolodaViewDataSo
         self.navigationItem.rightBarButtonItem = logoutButtonItem
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super .viewWillAppear(true)
+        kolodaView.resetCurrentCardIndex()
+        femaleLikeArray = []
+        femaleDislikeArray = []
+        femaleQuitArray = []
+    }
+    
     //ログアウト処理
     @objc func logOut(){
         do{

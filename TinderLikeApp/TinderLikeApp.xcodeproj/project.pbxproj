@@ -83,6 +83,47 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		B90B724724AC1D7D003AD273 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B941F1E224A2E9F5006DB086 /* LoginViewController.swift */,
+				B941F1C424A1C861006DB086 /* ViewController.swift */,
+				B90B723424A9C034003AD273 /* ImageSelectViewController.swift */,
+				B90B723C24A9C22F003AD273 /* ImageSelectCell.swift */,
+				B941F1D824A1F35F006DB086 /* FemailViewController.swift */,
+				B941F1DE24A22872006DB086 /* PopupViewController.swift */,
+				B94CD5EF24A3800F00CD2EA0 /* ResultViewController.swift */,
+				B94CD5F324A3847A00CD2EA0 /* CustomCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B90B724924AC1D87003AD273 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B941F1E324A2E9F5006DB086 /* LoginViewController.xib */,
+				B941F1C624A1C861006DB086 /* Main.storyboard */,
+				B90B723524A9C034003AD273 /* ImageSelectViewController.xib */,
+				B90B723D24A9C22F003AD273 /* ImageSelectCell.xib */,
+				B941F1D924A1F35F006DB086 /* FemailViewController.xib */,
+				B941F1DF24A22872006DB086 /* PopupViewController.xib */,
+				B94CD5F024A3800F00CD2EA0 /* ResultViewController.xib */,
+				B94CD5F424A3847A00CD2EA0 /* CustomCell.xib */,
+				B941F1CB24A1C863006DB086 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B90B724A24AC1D8C003AD273 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B941F1C024A1C861006DB086 /* AppDelegate.swift */,
+				B941F1C224A1C861006DB086 /* SceneDelegate.swift */,
+				B941F1DC24A216DB006DB086 /* ArrayClass.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B941F1B424A1C861006DB086 = {
 			isa = PBXGroup;
 			children = (
@@ -104,29 +145,12 @@
 		B941F1BF24A1C861006DB086 /* TinderLikeApp */ = {
 			isa = PBXGroup;
 			children = (
-				B941F1C024A1C861006DB086 /* AppDelegate.swift */,
-				B941F1C224A1C861006DB086 /* SceneDelegate.swift */,
-				B941F1E224A2E9F5006DB086 /* LoginViewController.swift */,
-				B941F1E324A2E9F5006DB086 /* LoginViewController.xib */,
-				B941F1C424A1C861006DB086 /* ViewController.swift */,
-				B941F1C624A1C861006DB086 /* Main.storyboard */,
-				B90B723424A9C034003AD273 /* ImageSelectViewController.swift */,
-				B90B723524A9C034003AD273 /* ImageSelectViewController.xib */,
-				B90B723C24A9C22F003AD273 /* ImageSelectCell.swift */,
-				B90B723D24A9C22F003AD273 /* ImageSelectCell.xib */,
-				B941F1D824A1F35F006DB086 /* FemailViewController.swift */,
-				B941F1D924A1F35F006DB086 /* FemailViewController.xib */,
-				B941F1DE24A22872006DB086 /* PopupViewController.swift */,
-				B941F1DF24A22872006DB086 /* PopupViewController.xib */,
-				B94CD5EF24A3800F00CD2EA0 /* ResultViewController.swift */,
-				B94CD5F024A3800F00CD2EA0 /* ResultViewController.xib */,
-				B94CD5F324A3847A00CD2EA0 /* CustomCell.swift */,
-				B94CD5F424A3847A00CD2EA0 /* CustomCell.xib */,
+				B90B724A24AC1D8C003AD273 /* Model */,
+				B90B724924AC1D87003AD273 /* View */,
+				B90B724724AC1D7D003AD273 /* Controller */,
 				B941F1C924A1C863006DB086 /* Assets.xcassets */,
-				B941F1CB24A1C863006DB086 /* LaunchScreen.storyboard */,
 				B941F1CE24A1C863006DB086 /* Info.plist */,
 				B941F1D424A1D49C006DB086 /* GoogleService-Info.plist */,
-				B941F1DC24A216DB006DB086 /* ArrayClass.swift */,
 			);
 			path = TinderLikeApp;
 			sourceTree = "<group>";

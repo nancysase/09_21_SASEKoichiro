@@ -39,6 +39,14 @@ class ViewController: UIViewController {
         recordButton.layer.cornerRadius = 5
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        nameTextField.text = ""
+        ageTextField.text = ""
+        imageView.image = nil
+        descriptionTextView.text = ""
+    }
+    
     func isLogin() ->Bool{
         if Auth.auth().currentUser != nil {
             return true
